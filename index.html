@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<!-- Algunos iconos se obtuvieron de https://icons8.com -->
+<!-- Algunas imagenes se modificaron sus datos con Gemini ai -->
+<!-- Y la imagen de contacto se creo con Canva -->
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Portafolio NSN</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/flexbox.css">
+        <link rel="stylesheet" href="css/inputs.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway:wght@500&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <header class="headerPrincipal">
+            <div class="menu-principal">
+                <h1><img src="imagenes/logo.png" class="imagen-logo" alt="Imágen Logo">Nadia Sámano</h1>
+                <nav class="headerPrincipal-nav">
+                        <a class="headerPrincipal-nav-link" href="#id-presentacion">Sobre mi</a>
+                        <a class="headerPrincipal-nav-link" href="#id-skills-hobbies">Skills</a>
+                        <a class="headerPrincipal-nav-link" href="#id-formacion">Formación</a>
+                        <a class="headerPrincipal-nav-link" href="#id-experiencia-prog">Proyectos</a>
+                        <a class="headerPrincipal-nav-link headerPrincipal-nav-link-contacto" href="mailto:nadia.samano@gmail.com?Subject=Contactando%20desde%20el%20Portafolio">nadia.samano@gmail.com</a>
+                </nav>
+            </div>
+        </header>
+
+        <main class="contenidoPrincipal">
+            <section id="id-presentacion" class="presentacion">
+                <div class="contenido-presentacion">
+                    <p>Hola, mi nombre es Nadia Sámano Nieves y este es mi portafolio</p>
+                    <p>Soy egresada de Lic. en Informática y he laborado como Desarrollador, así como Analista de Datos </p>
+                    <nav>
+                        <ul class="presentacion-list">
+                            <li class="presentacion-items"><a href="https://github.com/ariesn">Github</a></li>
+                            <li class="presentacion-items"><a href="https://www.linkedin.com/in/nadia-samano">Linkedln</a></li>
+                            <!-- <li class="presentacion-items"><a href="#">Instagram</a></li> -->
+                            <li class="presentacion-items"><a href="docns/CV2025_NS_portafolio.pdf">Curriculo</a></li>
+                            
+                        </ul>
+                    </nav>
+                </div>
+			<img class="foto-perfil" src="imagenes/foto_perfil.png" alt="Foto de perfil">
+            </section>
+            <section class="sobre-mi">
+                <div class="container">
+                    <h2 class="subtitulo">Sobre mi</h2>
+                    <div class="texto-item">
+                        <p>Soy un profesional en informática con experiencia en el desarrollo de proyectos, principalmente en entornos de institutos de investigación.</p>
+                        <p>Aprendí de forma autodidacta la mayoría de las tecnologías que utilizo. Estoy buscando una oportunidad para contribuir con mis habilidades en el desarrollo de aplicaciones o en el análisis de datos, campo en el que he centrado mi experiencia laboral más reciente..</p>
+                    </div>
+                    <img class="firma" src="imagenes/image4.png" alt="Imágen de firma">
+                </div>
+            </section>
+            <section id="id-skills-hobbies" class="skills-hobbies">
+                <div class="container">
+                    <h2 class="subtitulo">Skills</h2>
+                    <nav>
+                        <ul class="contenidoPrincipal-skills">
+                            <li class="contenidoPrincipal-skills-link"><img class="icon-skill" src="imagenes/iconhtml5.png" alt="Icon html5"><a href="#">Html 5</a></li>
+                            <li class="contenidoPrincipal-skills-link"><img class="icon-skill" src="imagenes/iconjavascript.png" alt="Icon javascript"><a href="#">Javascript</a></li>
+                            <li class="contenidoPrincipal-skills-link"><img class="icon-skill" src="imagenes/iconqlik.png" alt="Icon Qlik"><a href="#">Qlik</a></li>
+                            <li class="contenidoPrincipal-skills-link"><img class="icon-skill" src="imagenes/iconnet.png" alt="Icon dot net"><a href="#">.NET</a></li>
+                            <li class="contenidoPrincipal-skills-link"><img class="icon-skill" src="imagenes/microsoft-sql-server-icon.jpg" alt="Icon SQLServer"><a href="#">SQLServer</a></li>
+                            <li class="contenidoPrincipal-skills-link"><img class="icon-skill" src="imagenes/iconcss.png" alt="Icon CSS"><a href="#">CSS</a></li>
+                        </ul>
+                    </nav>
+                    
+                </div>
+            </section>
+            <section id="id-formacion" class="formacion">
+                <div class="container">
+                    <h2 class="subtitulo">Formación académica</h2>
+                    <nav>
+                        <ul class="contenidoPrincipal-formacion">
+                            <li class="contenidoPrincipal-formacion-link"><a href="#">Lic. Informática</a>2001 - Instituto Tecnológico de Zacatepec</li>
+                            <li class="contenidoPrincipal-formacion-link"><a href="#">ONE- Oracle Next Education</a>En curso - Alura</li>
+                            <li class="contenidoPrincipal-formacion-link"><a href="#">Introducción al Desarrollo Web I</a>2021 - Google Activate</li>
+                        </ul>
+                    </nav>
+                </div>
+            </section>
+            <section id="id-experiencia-prog" class="experiencia-prog">
+                <div class="container">
+                    <h2 class="subtitulo">Experiencia profesional</h2>
+                    <div class="experiencia">
+                        <div class="info-proyecto">
+                            <h3 class="titulo-proyecto">Encriptador de texto</h3>
+                            <p class="descripcion-proyecto">Challenge Alura Codificador</p>
+                            <div class="botones-proyecto">
+                                <button class="repoProy-button" onclick="location.href='https://github.com/ariesn/alura_challenge1'" >Repositorio</button>
+                                <button class="demoProy-button" onclick="location.href='https://ariesn.github.io/alura_challenge1/'">Ver demo</button>
+                            </div>
+                        </div>
+                        <img class="imagen-proyecto" src="imagenes/img-encriptador.png" alt="Imagen del proyecto Codificador">
+                    </div>
+                    <div class="experiencia">
+                        <div class="info-proyecto">
+                            <h3 class="titulo-proyecto">Juego creado con HTML, CSS y JavaScript</h3>
+                            <p class="descripcion-proyecto">Challenge Oracle</p>
+                            <div class="botones-proyecto">
+                                <button class="repoProy-button" onclick="location.href='https://github.com/ariesn/challenge-one-juego-del-ahorcado'">Repositorio</button>
+                                <button class="demoProy-button" onclick="location.href='https://ariesn.github.io/challenge-one-juego-del-ahorcado/'">Ver demo</button>
+                            </div>
+                        </div>
+                        <img class="imagen-proyecto" src="imagenes/img-juegoahorcado.png" alt="Imagen del proyecto juego del ahorcado">
+                    </div>
+ 		<div class="experiencia">
+                        <div class="info-proyecto">
+                            <h3 class="titulo-proyecto">Analisis de Datos</h3>
+                            <p class="descripcion-proyecto">Dashboard en Qlik</p>
+
+                        </div>
+                        <img src="imagenes/ejemplo1_dash.png" alt="Imagen del dashboard1">		
+                </div>
+ 		<div class="experiencia">
+                        <div class="info-proyecto">                          
+                            <p class="descripcion-proyecto">Dashboard con mapa en Qlik</p>
+                        </div>
+			<img src="imagenes/ejemplo_dash_map.png" alt="Imagen del dashboard mapa">			
+                </div>
+		<div class="experiencia">
+                        <div class="info-proyecto">                          
+                            <p class="descripcion-proyecto">Dashboard en Zoho Analytics</p>
+                        </div>
+			<img src="imagenes/Dash_Zoho_ej1.png" alt="Imagen del dashboard3">			
+                </div>
+		<div class="experiencia">
+                        <div class="info-proyecto">                          
+                            <p class="descripcion-proyecto">Dashboard en Zoho Analytics</p>
+                        </div>
+			<img src="imagenes/Dash_Zoho_ej2.png" alt="Imagen del dashboard4">			
+                </div>
+            </section>
+            <!-- formulario de contacto -->
+            <section id="id-formcontacto" class="formcontacto">
+		<div id="contacto" class="contacto">
+                    <div class="izquierda">
+                        <img class="imagen-contacto" src="imagenes/contact_image3.jpg">
+                    </div>
+                    <div class="contact-text">
+                        <h2 class="contact-title">Contacto</h2>
+                        <h3 class="contact-subtext">Quieres contactarme</h3>
+                        <h3 class="contact-subtext">Completa el siguiente formulario y me pondre en contacto lo antes posible</h3>
+			<form action="./registro_concluido.html" class="form" name="form" >
+                            <div class="input-container">
+                                <input class="input" type="text" name="nombre" placeholder="Nombre" required data-tipo="nombre" maxlength="50">
+                            <span class="input-message-error">Este campo no es valido</span>
+                            </div>
+                            <div class="input-container">
+                                <input class="input" type="email" name="email" placeholder="E-mail" required data-tipo="email" autocomplete="on">
+                                <span class="input-message-error">Este campo no es valido</span>
+                            </div>
+                            <div class="input-container">
+                                <input class="input" type="text" name="asunto" placeholder="Asunto" required data-tipo="asunto" maxlength="50">
+                                <span class="input-message-error">Este campo no es valido</span>
+                            </div>
+                            <div class="textarea-container">
+                                <textarea class="textarea" rows="5" cols="40" id="mensaje" name="mensaje" placeholder="Mensaje" maxlength="300" required
+                                    data-tipo="mensaje"></textarea>
+                                <span class="textarea-mensagem-erro">Este campo no es valido</span>
+                            </div>
+                            <button type="submit" class="contacto_boton">Enviar mensaje</button>
+                        </form>
+                                   
+                    </div>
+                </div>
+	    </section>
+        </main>
+        
+        <footer>
+            <section class="rodapie">
+                <div class="container">
+                    <p>Desarrollado por Nadia Sámano 2025</p>
+                </div>
+            </section>
+        </footer>
+        <script src="./js/app.js" type="module"></script>
+    </body>
+
+</html>
